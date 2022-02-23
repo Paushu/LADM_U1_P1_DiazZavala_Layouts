@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pasteles"
+    android:background="#F16C63">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donas disponibles"
+        android:layout_gravity="center|top"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#66C180"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azucarada"
+        android:layout_gravity="left"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$20.00 c/u "
+        android:layout_gravity="left"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oreo"
+        android:layout_gravity="right"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="80dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$30.00 c/u "
+        android:layout_gravity="right"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="60dp"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/azucarada"
+        android:layout_gravity="left"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/azucar"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oreo"
+        android:layout_gravity="right"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/oreo"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/donanuez"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/nuez"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/glaseada"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/glaseada"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rellena"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/rellena"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChocoNuez"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$30.00 c/u "
+        android:layout_gravity="left|center"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glaseada"
+        android:layout_gravity="right|center"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="70dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$25.00 c/u "
+        android:layout_gravity="right|center"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="60dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rellena"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$35.00 c/u"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/black"/>
+
+</FrameLayout>
